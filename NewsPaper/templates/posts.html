@@ -1,32 +1,36 @@
 <!--  наследуемся от шаблона default.html, который мы создавали для flatpages -->
 {% extends 'flatpages/default.html' %}
 
-<!-- Название у нас будет products -->
+{% load custom_filters %}
+
+{% load custom_tags %}
+
+<!-- Название у нас будет News -->
 {% block title %}
 News
 {% endblock title %}
 
 
-<!-- В контенте на странице мы выводим все товары -->
 {% block content %}
-<h1>Все посты</h1>
-    <h3> Количество новостей {{ posts|length }}</h3>
+<h1>Все новости</h1>
+    <h2> Количество публикаций: {{ posts|length }}</h2>
+    <h2>{% current_time '%d.%m.%Y' %}</h2>
     {% if posts %}
     <table>
     <tr>
-        <td>Заголовок</td>
-        <td>Дата публикации</td>
-        <td>Текст статьи</td>
+        <td><h3>Заголовок</h3></td>
+        <td><h3>Дата публикации</h3></td>
+        <td><h3>Текст статьи</h3></td>
     </tr>
     {% for post in posts %}
     <tr>
-    <td>{{ post.title_article_news }}</td>
-    <td>{{ post.time_in|date:'d.m.Y' }}</td>
-    <td>{{ post.text_article_news|truncatewords:20 }}</td>
+    <td>{{ post.title_article_news|censor }}</td>
+    <td>{{ post.time_in|date:'d.m.Y, h:i' }}</td>
+    <td>{{ post.text_article_news|truncatechars:20|censor }}</td>
     </tr>
     {% endfor %}
     </table>
     {% else %}
-    <h2>Новостей нет</h2>
+    <h2>Публикаций нет</h2>
 {% endif %}
 {% endblock content %}
