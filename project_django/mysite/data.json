@@ -1,0 +1,699 @@
+[
+  {
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+      "action_time": "2025-04-30T20:02:58.941Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "1",
+      "object_repr": "Learn how to work in IT",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+      "action_time": "2025-05-02T22:14:52.041Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "3",
+      "object_repr": "Who was Django Reinhardt",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+      "action_time": "2025-05-03T10:16:09.697Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "3",
+      "object_repr": "Who was Django Reinhardt",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+      "action_time": "2025-05-03T10:17:56.499Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "1",
+      "object_repr": "Learn how to work in IT",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 5,
+    "fields": {
+      "action_time": "2025-05-03T10:19:30.909Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "2",
+      "object_repr": "Another post",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 6,
+    "fields": {
+      "action_time": "2025-05-03T10:19:57.967Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "2",
+      "object_repr": "Another post",
+      "action_flag": 2,
+      "change_message": "[]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 7,
+    "fields": {
+      "action_time": "2025-05-03T10:20:10.139Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "1",
+      "object_repr": "Learn how to work in IT",
+      "action_flag": 2,
+      "change_message": "[]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 8,
+    "fields": {
+      "action_time": "2025-05-03T10:20:15.669Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "3",
+      "object_repr": "Who was Django Reinhardt",
+      "action_flag": 2,
+      "change_message": "[]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 9,
+    "fields": {
+      "action_time": "2025-05-03T10:21:07.216Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "1",
+      "object_repr": "Learn how to work in IT",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Slug\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 10,
+    "fields": {
+      "action_time": "2025-05-03T14:04:05.647Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "4",
+      "object_repr": "Any honey",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 11,
+    "fields": {
+      "action_time": "2025-05-03T14:35:19.381Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "5",
+      "object_repr": "Notes on Duke Ellington",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 12,
+    "fields": {
+      "action_time": "2025-05-03T15:28:46.717Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "6",
+      "object_repr": "Who was Miles Davis",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 13,
+    "fields": {
+      "action_time": "2025-05-03T15:37:44.485Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "7",
+      "object_repr": "Who was Bob Dylan",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 14,
+    "fields": {
+      "action_time": "2025-05-05T19:57:47.680Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "1",
+      "object_repr": "Comment by Евстафий on Notes on Duke Ellington",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Active\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 15,
+    "fields": {
+      "action_time": "2025-05-05T19:58:03.572Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "1",
+      "object_repr": "Comment by Евстафий on Notes on Duke Ellington",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Active\"]}}]"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 1,
+    "fields": {
+      "name": "Can add log entry",
+      "content_type": 1,
+      "codename": "add_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 2,
+    "fields": {
+      "name": "Can change log entry",
+      "content_type": 1,
+      "codename": "change_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 3,
+    "fields": {
+      "name": "Can delete log entry",
+      "content_type": 1,
+      "codename": "delete_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 4,
+    "fields": {
+      "name": "Can view log entry",
+      "content_type": 1,
+      "codename": "view_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 5,
+    "fields": {
+      "name": "Can add permission",
+      "content_type": 2,
+      "codename": "add_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 6,
+    "fields": {
+      "name": "Can change permission",
+      "content_type": 2,
+      "codename": "change_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 7,
+    "fields": {
+      "name": "Can delete permission",
+      "content_type": 2,
+      "codename": "delete_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 8,
+    "fields": {
+      "name": "Can view permission",
+      "content_type": 2,
+      "codename": "view_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 9,
+    "fields": {
+      "name": "Can add group",
+      "content_type": 3,
+      "codename": "add_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 10,
+    "fields": {
+      "name": "Can change group",
+      "content_type": 3,
+      "codename": "change_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 11,
+    "fields": {
+      "name": "Can delete group",
+      "content_type": 3,
+      "codename": "delete_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 12,
+    "fields": {
+      "name": "Can view group",
+      "content_type": 3,
+      "codename": "view_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 13,
+    "fields": {
+      "name": "Can add user",
+      "content_type": 4,
+      "codename": "add_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 14,
+    "fields": {
+      "name": "Can change user",
+      "content_type": 4,
+      "codename": "change_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 15,
+    "fields": {
+      "name": "Can delete user",
+      "content_type": 4,
+      "codename": "delete_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 16,
+    "fields": {
+      "name": "Can view user",
+      "content_type": 4,
+      "codename": "view_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 17,
+    "fields": {
+      "name": "Can add content type",
+      "content_type": 5,
+      "codename": "add_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 18,
+    "fields": {
+      "name": "Can change content type",
+      "content_type": 5,
+      "codename": "change_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 19,
+    "fields": {
+      "name": "Can delete content type",
+      "content_type": 5,
+      "codename": "delete_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 20,
+    "fields": {
+      "name": "Can view content type",
+      "content_type": 5,
+      "codename": "view_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 21,
+    "fields": {
+      "name": "Can add session",
+      "content_type": 6,
+      "codename": "add_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 22,
+    "fields": {
+      "name": "Can change session",
+      "content_type": 6,
+      "codename": "change_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 23,
+    "fields": {
+      "name": "Can delete session",
+      "content_type": 6,
+      "codename": "delete_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 24,
+    "fields": {
+      "name": "Can view session",
+      "content_type": 6,
+      "codename": "view_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 25,
+    "fields": {
+      "name": "Can add post",
+      "content_type": 7,
+      "codename": "add_post"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 26,
+    "fields": {
+      "name": "Can change post",
+      "content_type": 7,
+      "codename": "change_post"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 27,
+    "fields": {
+      "name": "Can delete post",
+      "content_type": 7,
+      "codename": "delete_post"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 28,
+    "fields": {
+      "name": "Can view post",
+      "content_type": 7,
+      "codename": "view_post"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 29,
+    "fields": {
+      "name": "Can add comment",
+      "content_type": 8,
+      "codename": "add_comment"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 30,
+    "fields": {
+      "name": "Can change comment",
+      "content_type": 8,
+      "codename": "change_comment"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 31,
+    "fields": {
+      "name": "Can delete comment",
+      "content_type": 8,
+      "codename": "delete_comment"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 32,
+    "fields": {
+      "name": "Can view comment",
+      "content_type": 8,
+      "codename": "view_comment"
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 1,
+    "fields": {
+      "password": "pbkdf2_sha256$1000000$tYOeOYgTRT9Xk2IIlScTyq$GxamMzKGlyfOdWZwOxOD9ouyeuPCNcI2Tgb8okI9ssw=",
+      "last_login": "2025-04-30T19:53:50.374Z",
+      "is_superuser": true,
+      "username": "admin",
+      "first_name": "",
+      "last_name": "",
+      "email": "admin@admin.com",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2025-04-30T19:53:01.847Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 1,
+    "fields": {
+      "app_label": "admin",
+      "model": "logentry"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 2,
+    "fields": {
+      "app_label": "auth",
+      "model": "permission"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 3,
+    "fields": {
+      "app_label": "auth",
+      "model": "group"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 4,
+    "fields": {
+      "app_label": "auth",
+      "model": "user"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 5,
+    "fields": {
+      "app_label": "contenttypes",
+      "model": "contenttype"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 6,
+    "fields": {
+      "app_label": "sessions",
+      "model": "session"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 7,
+    "fields": {
+      "app_label": "blog",
+      "model": "post"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 8,
+    "fields": {
+      "app_label": "blog",
+      "model": "comment"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "1xsv8x4uwh9jjuln719fb36bf5ukvb4i",
+    "fields": {
+      "session_data": ".eJxVjEEOgjAQRe_StWlopTOMS_ecoZlOB0FNSSisjHdXEha6_e-9_zKRt3WMW9UlTtlcjDOn3y2xPLTsIN-53GYrc1mXKdldsQettp-zPq-H-3cwch2_dacZMEmDEDpKLZ9VlYeGEoE4Qh58MzAJEnvyoQMMrThwKt4jBgfm_QHxkzeP:1uADV8:e7UNqX8rG3yo2jddpqkUI17_SwIpMz23NIOUhPkXqHk",
+      "expire_date": "2025-05-14T19:53:50.380Z"
+    }
+  },
+  {
+    "model": "blog.post",
+    "pk": 1,
+    "fields": {
+      "title": "Learn how to work in IT",
+      "slug": "learn-how-to-work-in-it",
+      "author": 1,
+      "body": "The fastest way to learn about IT fields is to Google and watch YouTube videos about different IT careers like networking, sysadmin, software development, cybersecurity, and data science. Browse job sites like LinkedIn to see what companies are looking for, and ask IT professionals for real-world insights. Get hands-on by using free tools like GitHub or AWS to play around with tech. Skip certifications for now and focus on understanding the basics. Finally, join forums like Reddit’s tech communities to learn from actual IT pros. Just dive in and learn by doing.",
+      "publish": "2025-04-30T19:59:16Z",
+      "created": "2025-04-30T20:02:58.939Z",
+      "updated": "2025-05-03T10:21:07.214Z",
+      "status": "PB"
+    }
+  },
+  {
+    "model": "blog.post",
+    "pk": 2,
+    "fields": {
+      "title": "Another post",
+      "slug": "another-post",
+      "author": 1,
+      "body": "Yet Another Related Posts Plugin (YARPP) is a professionally maintained, highly customizable, performant and feature rich plugin that displays pages, posts, and custom post types related to the current entry. YARPP introduces your visitors to other relevant content on your site — boosting visitor engagement, time on site and SEO. Related Posts can increase your pageviews up to 10%. Simply install, activate and watch your sessions and pageviews increase.",
+      "publish": "2025-05-01T19:46:48Z",
+      "created": "2025-05-01T19:46:57.500Z",
+      "updated": "2025-05-03T10:19:57.964Z",
+      "status": "PB"
+    }
+  },
+  {
+    "model": "blog.post",
+    "pk": 3,
+    "fields": {
+      "title": "Who was Django Reinhardt",
+      "slug": "who-was-django-reinhardt",
+      "author": 1,
+      "body": "Jean Reinhardt, better known as Django, was born in 1910 in Liberchies (Belgium) into a community of travellers. After spending his childhood travelling through Europe and North Africa, he settled with his family in Paris.\r\n    He learnt music by himself (first the violin, then the banjo-guitar and the guitar) by observing passing musicians, and quickly showed an extraordinary dexterity. After joining the family orchestra, he began to play in the street, then at balls and cabarets, and even in the salons of bourgeois families. The teenager was spotted by the ballroom accordionist Vetese Guérino and acquired a certain reputation among music lovers. It was finally accordionist Jean Vaissade who finally allowed him to record his first album at 18.",
+      "publish": "2025-05-02T22:14:08Z",
+      "created": "2025-05-02T22:14:52.038Z",
+      "updated": "2025-05-03T10:20:15.666Z",
+      "status": "PB"
+    }
+  },
+  {
+    "model": "blog.post",
+    "pk": 4,
+    "fields": {
+      "title": "Any honey",
+      "slug": "any-honey",
+      "author": 1,
+      "body": "The recipe calls for straight-up honey, without any added sugars or flavors.",
+      "publish": "2025-05-03T14:00:19Z",
+      "created": "2025-05-03T14:04:05.644Z",
+      "updated": "2025-05-03T14:04:05.644Z",
+      "status": "PB"
+    }
+  },
+  {
+    "model": "blog.post",
+    "pk": 5,
+    "fields": {
+      "title": "Notes on Duke Ellington",
+      "slug": "notes-on-duke-ellington",
+      "author": 1,
+      "body": "Duke Ellington was the most important composer in the history of jazz as well as being a bandleader who held his large group together continuously for almost 50 years. The two aspects of his career were related; Ellington used his band as a musical laboratory for his new compositions and shaped his writing specifically to showcase the talents of his bandmembers, many of whom remained with him for long periods. Ellington also wrote film scores and stage musicals, and several of his instrumental works were adapted into songs that became standards. In addition to touring year in and year out, he recorded extensively, resulting in a gigantic body of work that was still being assessed a quarter century after his death.",
+      "publish": "2025-05-03T14:34:05Z",
+      "created": "2025-05-03T14:35:19.379Z",
+      "updated": "2025-05-03T14:35:19.379Z",
+      "status": "PB"
+    }
+  },
+  {
+    "model": "blog.post",
+    "pk": 6,
+    "fields": {
+      "title": "Who was Miles Davis",
+      "slug": "who-was-miles-davis",
+      "author": 1,
+      "body": "Miles Davis was arguably the most influential jazz musician in the post-World War II period, being at the forefront of changes in the genre for more than 40 years.",
+      "publish": "2025-05-03T15:27:39Z",
+      "created": "2025-05-03T15:28:46.716Z",
+      "updated": "2025-05-03T15:28:46.716Z",
+      "status": "PB"
+    }
+  },
+  {
+    "model": "blog.post",
+    "pk": 7,
+    "fields": {
+      "title": "Who was Bob Dylan",
+      "slug": "who-was-bob-dylan",
+      "author": 1,
+      "body": "Bob Dylan was born on May 24, 1941 in Duluth, Minnesota. He grew up in the city of Hibbing. As a teenager, he played in various bands and with time his interest in music deepened, with a particular passion for American folk music and blues. One of his idols was the folk singer Woody Guthrie. He was also influenced by the early authors of the Beat Generation, as well as by modernist poets.",
+      "publish": "2025-05-03T15:36:06Z",
+      "created": "2025-05-03T15:37:44.483Z",
+      "updated": "2025-05-03T15:37:44.483Z",
+      "status": "PB"
+    }
+  },
+  {
+    "model": "blog.comment",
+    "pk": 1,
+    "fields": {
+      "post": 5,
+      "name": "Евстафий",
+      "email": "emikejlov@gmail.com",
+      "body": "I didn't know that!",
+      "created": "2025-05-05T19:53:22.594Z",
+      "updated": "2025-05-05T19:58:03.569Z",
+      "active": true
+    }
+  },
+  {
+    "model": "blog.comment",
+    "pk": 2,
+    "fields": {
+      "post": 5,
+      "name": "Gimli",
+      "email": "emikejlov@gmail.com",
+      "body": "I really like this article.",
+      "created": "2025-05-05T19:55:33.126Z",
+      "updated": "2025-05-05T19:55:33.126Z",
+      "active": true
+    }
+  }
+]
