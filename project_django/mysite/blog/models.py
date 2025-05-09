@@ -33,6 +33,7 @@ class Post(models.Model):
 
     objects = models.Manager() # The default manager.
     published = PublishedManager() # Our custom manager.
+    tags = TaggableManager()
 
     class Meta:
         ordering = ['-publish']
@@ -50,8 +51,6 @@ class Post(models.Model):
                              self.publish.day,
                              self.slug])
 
-    tags = TaggableManager()
-
 
 class Comment(models.Model):
     post = models.ForeignKey(Post,
@@ -65,11 +64,10 @@ class Comment(models.Model):
     active = models.BooleanField(default=True)
 
     class Meta:
-        ordering = ['-created']
+        ordering = ['created']
         indexes = [
-            models.Index(fields=['-created']),
+            models.Index(fields=['created']),
         ]
-
 
     def __str__(self):
         return f'Comment by {self.name} on {self.post}'
