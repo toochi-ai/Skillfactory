@@ -40,6 +40,8 @@ INSTALLED_APPS = [
 
     'blog.apps.BlogConfig',
     'taggit',
+    'django.contrib.sites',
+    'django.contrib.sitemaps',
 ]
 
 MIDDLEWARE = [
@@ -87,7 +89,7 @@ DATABASES = {
         'NAME': 'mysitesql',
         'USER': 'name',
         'PASSWORD': 'password',
-        'HOST': '127.0.0.1', # localhost
+        'HOST': '127.0.0.1',  # localhost
         'PORT': '5432',
     }
 }
